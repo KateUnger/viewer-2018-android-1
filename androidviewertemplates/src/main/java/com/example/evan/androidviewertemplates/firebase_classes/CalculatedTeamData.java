@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Created by Katherine on 1/12/2018.
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties(ignoreUnknown = false)
 public class CalculatedTeamData extends Object {
     public Float didThreeExchangeInputPercentage;
     public Float firstPickAbiltiy;
@@ -220,5 +220,24 @@ public class CalculatedTeamData extends Object {
     public Float avgScaleCycleTimeAuto;
     public Float avgScaleCycleTimeTele;
     public Float avgExchangeCycleTime;
+    public Float avgNumOpponentSwitchTele;
+    public Float lfmlfmAvgNumCubesDroppedAuto;
+    public Float lfmlfmAvgNumCubesDroppedTele;
+    public Float avgNumCubesDroppedTele;
+    public Float avgNumScaleAuto;
+    public Float avgNumScaleTele;
+    public Float avgNumCubesDroppedAuto;
+    public Float lfmAvgNumCubesScaleAt100s;
+    public Float lfmAvgNumCubesScaleAt110s;
+    public Float avgNumAllianceSwitchTele;
+    public Float avgNumCubesScaleAt110s;
+    public Float avgNumCubesScaleAt100s;
+    public Float avgNumAllianceSwitchAuto;
+    public Float avgNumExchangeInput;
+    public Float lfmlfmAvgAllianceSwitchCycleTimeTele;
+    public Float lfmAvgScaleCycleTimeTele;
+    public Float lfmAvgScaleCycleTimeAuto;
+    public Float lfmlfmAvgAllianceSwitchCycleTimeAuto;
+    public Float lfmlfmAvgOpponentSwitchCycleTimeTele;
 
 }
